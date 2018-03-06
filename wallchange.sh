@@ -1,5 +1,5 @@
 #!/bin/bash
-WPCURRENT="$(shuf -n1 -e ~/Wallpaper/*)"
+WPCURRENT="$(shuf -n1 -e ~/Wallpaper/*.jpg)"
 
 feh --randomize --bg-fill "${WPCURRENT}"
 
